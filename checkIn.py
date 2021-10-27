@@ -34,7 +34,7 @@ time.sleep(5)
 # driver.find_element_by_xpath('/html/body/header/nav/ul[1]/li/div/div[4]/div[2]/div[2]/a[4]').click()
 # time.sleep(5)
 #get link
-#driver.find_element_by_link_text("https://bap.bemo.cloud").click()
+#driver.find_element_by_link_text("url").click()
 
 timeCheckIn = '08:14:00'
 timeCheckOut = '17:30:00'
