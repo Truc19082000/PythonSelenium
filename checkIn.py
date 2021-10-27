@@ -7,8 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Chrome(executable_path='D:/truc/Python/tool/CheckIn/chromedriver.exe')
 driver.set_window_size(1500, 800)
-# driver.get('https://bap.bemo.cloud/web/login')
-driver.get('https://bap.bemo.cloud/web#action=182&cids=&menu_id=125')
+driver.get('url')
 
 #open txt file
 f = open('D:\\truc\\Python\\tool\\CheckIn\\account.txt', 'r')
